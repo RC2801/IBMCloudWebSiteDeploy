@@ -1,0 +1,6 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: simple-website-Youtube
+  name: simple-website-Youtube
+  memory: 64M
+  stack: cflinuxfs2
